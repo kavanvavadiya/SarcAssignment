@@ -1,0 +1,21 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.dashboard{
+    display: flex;
+}
+.left{
+    flex: 9;
+}
+.right{
+    flex: 3;
+    overflow-y: scroll;
+    position: sticky;
+}
+.add{
+    cursor: pointer;
+    size: 30px;
+    margin-top: 20px;
+}
